@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HoverMe Tooltip By GitHub @iamitpkumar</title>
+  <link rel="stylesheet" href="hoverMe.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <h2>Tooltip with Centered Arrows</h2>
+  <p>The arrow will always point to the center of the hovered element, regardless of element width or tooltip position.</p>
+
+  <button data-title="Short tooltip" data-position="top">Hover Top</button>
+  <button data-title="This is a much longer tooltip text that extends beyond the button" data-position="bottom">Hover Bottom</button>
+  <button data-title="Left tooltip" data-position="left" class="wide-button" data-color="#dc2626" data-text-color="#fff">Wide Button Left (Red)</button>
+  <button data-title="Right side tooltip" data-position="right" class="narrow-button" data-color="#059669" data-text-color="#fff">Right (Green)</button>
+
+  <br><br>
+
+  <button data-title="Very long tooltip text that demonstrates arrow centering" data-position="top" class="narrow-button" data-color="#7c3aed" data-text-color="#fff">Narrow (Purple)</button>
+  <button data-title="Short" data-position="bottom" class="wide-button">Very Wide Button Bottom</button>
+
+  <br><br>
+  
+  <h3>Custom Color Examples:</h3>
+  <button data-title="Orange tooltip!" data-color="#ea580c" data-text-color="#fff">Orange Tooltip</button>
+  <button data-title="Dark tooltip" data-color="#1f2937" data-text-color="#f9fafb">Dark Tooltip</button>
+  <button data-title="Success message" data-color="#10b981" data-text-color="#fff">Success Tooltip</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="hoverMe.js"></script>
+  <script>
+    // Activate plugin with different options
+    $("[data-title]").HoverMe({
+      position: 'top',
+      color: '#2563eb',
+      textColor: '#fff'
+    });
+  </script>
+</body>
+</html>
