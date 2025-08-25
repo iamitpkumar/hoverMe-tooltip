@@ -212,17 +212,6 @@ cd hoverme-tooltip
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Thanks to the jQuery team for the amazing framework
-- Inspired by modern tooltip implementations
-- Built with ❤️ for the developer community
-
-## 📞 Support
-
-- 🐛 **Bug reports**: [GitHub Issues](https://github.com/iamitpkumar/hoverme-tooltip/issues)
-- 💡 **Feature requests**: [GitHub Discussions](https://github.com/iamitpkumar/hoverme-tooltip/discussions)
-- 📧 **Email**: [your-email@example.com]
 
 ## 🌟 Show Your Support
 
