@@ -22,8 +22,9 @@ A lightweight, customizable jQuery tooltip plugin with smart arrow positioning. 
 ### 1. Include Dependencies
 
 ```html
+<link rel="stylesheet" href="hoverMe.css" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="hoverme-tooltip.js"></script>
+<script src="hoverMe.js"></script>
 ```
 
 ### 2. Add HTML
